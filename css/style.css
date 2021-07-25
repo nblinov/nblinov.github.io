@@ -1,0 +1,70 @@
+body
+{
+    /*font-family: 'Signika', sans-serif;*/
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6em;
+}
+a
+{
+text-decoration: underline;
+font-weight: bold;
+/*color: #339933;*/
+color: #002145;
+}
+h1, h3
+{
+font-family: 'Signika', sans-serif;
+}
+h3
+{
+color: #002145;
+}
+a:hover
+{
+/*color: #333333;*/
+color: #000000;
+}
+#menu {
+    text-align: center;
+}
+
+#navlist
+{
+margin: 0;
+padding: 0 0 20px 10px;
+border-bottom: 1px solid #000;
+font-family: 'Signika', sans-serif;
+}
+
+#navlist ul, #navlist li
+{
+margin: 0;
+padding: 0;
+display: inline;
+list-style-type: none;
+}
+
+#navlist a:link, #navlist a:visited
+{
+float: left;
+line-height: 14px;
+font-weight: bold;
+margin: 0 10px 4px 10px;
+text-decoration: none;
+color: #999;
+}
+
+#navlist a:link#current, #navlist a:visited#current, #navlist a:hover
+{
+border-bottom: 4px solid #000;
+padding-bottom: 2px;
+background: transparent;
+color: #000;
+}
+
+#navlist a:hover { color: #000; }
+
+ul 
+{
+list-style: square;
+}
